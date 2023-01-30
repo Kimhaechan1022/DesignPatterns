@@ -1,3 +1,5 @@
+package src.flyweight;
+
 public class DigitFactory {
     private Digit[] pool = new Digit[]{
         null,null,null,null,null,null,null,null,null,null

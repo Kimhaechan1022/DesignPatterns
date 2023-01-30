@@ -1,4 +1,4 @@
-
+package src.iterator;
 
 /*
  * iterator pattorn example

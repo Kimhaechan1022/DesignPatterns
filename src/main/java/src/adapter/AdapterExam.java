@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class AdapterExam{
 
-    public static void main(String[] args){
+    public static void runAdapterExam(){
         
         ArrayList<Animal> animals = new ArrayList<Animal>();
         animals.add(new Dog("dog1"));

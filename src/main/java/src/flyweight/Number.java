@@ -1,3 +1,5 @@
+package src.flyweight;
+
 import java.util.ArrayList;
 
 public class Number {

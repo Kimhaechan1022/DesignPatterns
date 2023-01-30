@@ -1,4 +1,4 @@
-
+package src.bridge;
 /*
  * Bridge Pattern
  * 
@@ -12,7 +12,7 @@
 
 public class BridgeExam{
     
-    public static void main(String[] args){
+    public static void runBridgeExam(){
         var title = "title1";
         var author = "author1";
         String[] content = {

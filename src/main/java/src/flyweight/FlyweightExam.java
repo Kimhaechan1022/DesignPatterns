@@ -1,4 +1,4 @@
-
+package src.flyweight;
 /*
  * Flyweight Pattern
  * 

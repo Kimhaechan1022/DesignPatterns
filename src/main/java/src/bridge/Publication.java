@@ -1,3 +1,5 @@
+package src.bridge;
+
 public class Publication extends Draft{
     private String publisher;
     private int cost;

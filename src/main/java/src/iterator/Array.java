@@ -1,3 +1,5 @@
+package src.iterator;
+
 public class Array implements Aggregator{
     private Item[] items;
     public Array(Item[] items){

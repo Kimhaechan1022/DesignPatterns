@@ -1,3 +1,5 @@
+package src.strategy;
+
 public class GaussSumStrategy implements SumStrategy{
 
     @Override

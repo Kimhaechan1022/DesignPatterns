@@ -1,3 +1,5 @@
+package src.singleton;
+
 public class King {
 
     // 생성자를 private 접근자로 캡슐화 하여 나 자신 이외에 어떠한 다른곳에서도 생성하지 못하도록 방지

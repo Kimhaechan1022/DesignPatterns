@@ -5,7 +5,7 @@ import static src.builder.BuilderExam.runBuilderExam;
 import static src.command.CommandExam.runCommandExam;
 import static src.composite.CompositeExam.*;
 
-import static src.cor.ChainOfResponsibility.runChainOfResponsibilityExam;
+import static src.cor.ChainOfResponsibilityExam.runChainOfResponsibilityExam;
 import static src.decorator.DecoratorExam.runDecoratorExam;
 import static src.facade.FacadeExam.runFacadeExam;
 import static src.factoryMethod.FactoryMethodExam.*;
@@ -28,7 +28,7 @@ public class Main {
 //        runMediatorExam();
 //        runMementoExam();
 //        runFroxyExam();
-//        runChainOfResponsibilityExam();
+        runChainOfResponsibilityExam();
 //        runPrototypeExam();
 //        runFacadeExam();
 //        runBuilderExam();
@@ -36,7 +36,7 @@ public class Main {
 //        runAbstractFactoryExam();
 //        runStateExam();
 //        runInterpreterExam();
-        runVisitorExam();
+//        runVisitorExam();
 
     }
 

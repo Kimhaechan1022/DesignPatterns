@@ -1,4 +1,4 @@
-/*
+package src.strategy;/*
  * 
  * Strategy pattern을 알아보자
  * (전략 패턴이라고도 함)

@@ -1,3 +1,4 @@
+package src.iterator;
 
 public interface Iterator {
 

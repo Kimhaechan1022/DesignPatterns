@@ -1,3 +1,5 @@
+package src.bridge;
+
 public class SimpleDisplay implements Display{
 
     @Override

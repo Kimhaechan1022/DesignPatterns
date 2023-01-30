@@ -10,7 +10,7 @@ import src.proxy.BufferDisplay;
 import src.proxy.Display;
 import src.proxy.ScreenDisplay;
 
-public class ChainOfResponsibility {
+public class ChainOfResponsibilityExam {
     public static void runChainOfResponsibilityExam() {
 
         Handler handler1 = new ProtocolHandler();

@@ -1,3 +1,5 @@
+package src.template;
+
 import java.util.ArrayList;
 
 public class SimpleDisplayArticle extends DisplayArticleTemplate{

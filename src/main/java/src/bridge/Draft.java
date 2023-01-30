@@ -1,3 +1,5 @@
+package src.bridge;
+
 public class Draft {
     
     private String titles;

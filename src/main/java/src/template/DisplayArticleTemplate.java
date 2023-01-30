@@ -1,3 +1,5 @@
+package src.template;
+
 public abstract class DisplayArticleTemplate {
     protected Article article;
 
