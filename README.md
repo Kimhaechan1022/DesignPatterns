@@ -1,48 +1,38 @@
 
-#### @date: 2023.01.13 
+#### @date: 2023.01.13 - 2023.01.30 [18 Days]
 #### @author: KimHaeChan
+
+
+### How to Run?
+- packages of each pattern has runPatternExam() static method, You can run it on the Main method which in Main class
+
+
+## Notion link of description document
+- https://www.notion.so/kimhaechan/fc8bf979b6604d6fa5de43c364b5e0d1
+
 
 ## GOF's Design Patterns
 
-- Composite
-- Factory Method
-- Mediator
-- Memento
-- Observer
-
-
-
-### Composite Pattern
-
-    단일체와 집합체를 하나의 동일한 개념으로 처리하기 위한 패턴
-    폴더와 파일을 동일한 개념으로 처리하기위해 유닛이라는 클래스를 상속받게 함
-    DFS 방식의 탐색을 통해 집합체를 탐색하고 집합체 내의 단일체 내용을 기반으로 집합체를 단일체화 하는 방식을 수행한다.
-    (집합체를 단일체처럼 다룰때는 같은 부모의 추상클래스를 상속받아 인터페이스를 맞추고 세부 구현은 각각 오버라이딩 하는 방식을 택한다.
-    이떄 재귀 로직을 통해 DFS 를 수행하는 경우가 일반적이다.
-
-### Factory Method Pattern
-
-    객체 생성을 위한 패턴
-    객체 생성에 필요한 과정을 템플릿처럼 정해 놓고 각 과정을 다양하게 구현이 가능함
-    구체적으로 생성할 클래스를 유연하게 정할 수 있음
-    객체 생성에 대한 인터페이스와 구현의 분리
-    (시스템의 확장성과 유지보수성을 높이는 효과를 도모함)
-    
-    생성을 관장하는 Factory 추상 클래스는 실제 구현과 관련된 구체적인 내용을 명세하지 않고 틀만 마련한다.
-    이를 상속받아 구현한 ItemFactory 클래스가 구체적인 내용을 구현하는데 Item 인터페이스의 기능을 기반으로 구현을 수행한다.
-    
-    객체의 생성은 추상클래스에서, 객체의 구현은 인터페이스를 기반으로 한 자식 클래스에서 수행을 진행함으로 여러가지 구현에 방식들에 대한
-    확장성을 보장받을수 있다. ItemFactory 와 비슷하게 FoodFactory 를 구현하고 Food의 기능을 인터페이스로 명시한다면 생성은 같은 클래스가
-    수행하지만 생성된 결과 객체는 입맛에 따라 조율할수 있는 효과를 얻을수 있다.
-
-### Mediator Pattern
-
-    mediator은 중재자라는 뜻의 패턴이다.
-    관계를 밀접하게 맺은 관계를 갖는 객체들을 중재하는 패턴
-    복잡한 관계를 단순화 시키기 위해 중재자를 두고 각 객체들은 서로
-    관계를 맺지않고 중재자와 관계를 맺는다.
-    각 객체들은 중재자로 부터 상태 변경 통지를 받는다.
-    해당 중재자를 통해 각 객체를 제어하게 된다, 복잡한 관계를 단순화 시키는데 사용목적이 있다.
-
-
-
+- abstract Factory
+- adapter
+- bridge
+- builder
+- command
+- composite
+- chain of responsibility
+- decorator
+- facade
+- factory method
+- fly weight
+- interpreter
+- iterator
+- mediator
+- memento
+- observer
+- prototype
+- proxy
+- singleton
+- state
+- strategy
+- template
+- visitor
